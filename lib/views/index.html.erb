@@ -35,9 +35,7 @@
                 <label for="level" class="lead label">Game level:</label>
                 <select class="custom-select" name="level" required="">
                   <option value="">Choose game level...</option>
-                  <option value="simple">Simple</option>
-                  <option value="middle">Middle</option>
-                  <option value="hard">Hard</option>
+                  <%= level_options%>
                 </select>
               </div>
 
@@ -47,7 +45,7 @@
                 Start the game!
               </button>
               <span class="float-right">
-                <a class="btn btn-warning btn-lg" href="#" role="button">Rules</a>
+                <a class="btn btn-warning btn-lg" href="/rules" role="button">Rules</a>
                 <a class="btn btn-success btn-lg" href="statistic" role="button">Statistics</a>
               </span>
             </form>

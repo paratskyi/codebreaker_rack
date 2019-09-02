@@ -19,45 +19,42 @@
               </div>
             </div>
             <p class="lead text-white-70">
-              Hello, test!
+              Hello, <%= player_name%>
               Try to guess 4-digit number, that consists of numbers in a range from 1 to 6.
             </p>
             <hr class="mb-4">
             <div class="row">
               <div class="col button">
                 <button type="button" class="btn btn-primary" disabled>
-                  Level:
+                  Level: 
                   <span class="badge badge-light">
-                    Simple
+                    <%= level%>
                   </span>
                 </button>
               </div>
               <div class="col text-center button">
                 <button type="button" class="btn btn-primary" disabled>
                   Attempts:
-                  <span class="badge badge-light">4</span>
+                  <span class="badge badge-light"><%= attempts%></span>
                 </button>
               </div>
 
               <div class="col button">
                 <button type="button" class="btn btn-primary float-right">
                   Hints:
-                  <span class="badge badge-light">1</span>
+                  <span class="badge badge-light"><%= hints%></span>
                 </button>
               </div>
             </div>
             <hr class="mb-4">
 
-            <form method="post" action="http://localhost:9292/submit_answer">
+            <form method="post" action="/submit_answer">
               <div class="form-group">
                 <input class="form-control guess_input" name="number" pattern="^[1-6]{4}$" placeholder="1234" required="" autocomplete="off">
               </div>
               <div class="form-group guess_markers_list">
                 <div id="guess_marker">
-                  <button type="button" class="btn btn-success marks" disabled>+</button>
-                  <button type="button" class="btn btn-primary marks" disabled>-</button>
-                  <button type="button" class="btn btn-danger marks" disabled>x</button>
-                  <button type="button" class="btn btn-danger marks" disabled>x</button>
+                  <%= guess_marks%>
                 </div>
               </div>
               <hr class="mb-4">
@@ -65,14 +62,9 @@
               <button type="submit" class="btn btn-primary btn-lg">
                 Submit
               </button>
-              <a class="btn btn-warning btn-lg float-right" role="button">
+              <a href='/take_hint' class="btn btn-warning btn-lg float-right" role="button">
                 Show hint!
-                <span class="badge badge-light">
-                  6
-                </span>
-                <span class="badge badge-light">
-                  3
-                </span>
+                <%= show_hints%>
               </a>
             </form>
           </div>

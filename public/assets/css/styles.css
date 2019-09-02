@@ -62,3 +62,7 @@ input::-webkit-inner-spin-button {
 .scores {
   background: white;
 }
+
+.margin-auto{
+  margin: 0 auto;
+}

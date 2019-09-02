@@ -1,0 +1,295 @@
+---
+- :name: Asdf
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 6
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 08:02:47.604017727 Z
+- :name: Asdf
+  :difficulty: medium
+  :attempts_total: 10
+  :attempts_used: 6
+  :hints_total: 1
+  :hints_used: 0
+  :date: 2019-09-01 08:05:12.815998324 Z
+- :name: Asdf
+  :difficulty: medium
+  :attempts_total: 10
+  :attempts_used: 6
+  :hints_total: 1
+  :hints_used: 0
+  :date: 2019-09-01 08:58:59.244549557 Z
+- :name: Sdfg
+  :difficulty: medium
+  :attempts_total: 10
+  :attempts_used: 9
+  :hints_total: 1
+  :hints_used: 2
+  :date: 2019-09-01 09:02:21.239641624 Z
+- :name: Asdf
+  :difficulty: medium
+  :attempts_total: 10
+  :attempts_used: 7
+  :hints_total: 1
+  :hints_used: 0
+  :date: 2019-09-01 09:26:04.608403294 Z
+- :name: Asdf
+  :difficulty: medium
+  :attempts_total: 10
+  :attempts_used: 5
+  :hints_total: 1
+  :hints_used: 0
+  :date: 2019-09-01 09:56:08.407027400 Z
+- :name: Paratskiy
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 5
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 09:57:23.973087014 Z
+- :name: Bogdan
+  :difficulty: hell
+  :attempts_total: 5
+  :attempts_used: 4
+  :hints_total: 1
+  :hints_used: 0
+  :date: 2019-09-01 13:07:28.626683067 +03:00
+- :name: Paratskiy
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 6
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 13:13:45.333923291 +03:00
+- :name: Asdf
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 6
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 13:23:42.194040479 +03:00
+- :name: Asdf
+  :difficulty: medium
+  :attempts_total: 10
+  :attempts_used: 8
+  :hints_total: 1
+  :hints_used: 0
+  :date: 2019-09-01 13:44:39.238677402 +03:00
+- :name: Paratskiy
+  :difficulty: medium
+  :attempts_total: 10
+  :attempts_used: 5
+  :hints_total: 1
+  :hints_used: 0
+  :date: 2019-09-01 15:44:33.157809289 +03:00
+- :name: Asdfasdf
+  :difficulty: medium
+  :attempts_total: 10
+  :attempts_used: 4
+  :hints_total: 1
+  :hints_used: 0
+  :date: 2019-09-01 15:50:07.441343128 +03:00
+- :name: Asdf
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 9
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 17:41:08.234243849 +03:00
+- :name: Paratskiy
+  :difficulty: medium
+  :attempts_total: 10
+  :attempts_used: 7
+  :hints_total: 1
+  :hints_used: 0
+  :date: 2019-09-01 17:50:02.999798221 +03:00
+- :name: Sdfg
+  :difficulty: medium
+  :attempts_total: 10
+  :attempts_used: 0
+  :hints_total: 1
+  :hints_used: 1
+  :date: 2019-09-01 18:06:48.614019746 +03:00
+- :name: Sdfg
+  :difficulty: medium
+  :attempts_total: 10
+  :attempts_used: 0
+  :hints_total: 1
+  :hints_used: 1
+  :date: 2019-09-01 18:08:38.763184573 +03:00
+- :name: Sdfg
+  :difficulty: medium
+  :attempts_total: 10
+  :attempts_used: 0
+  :hints_total: 1
+  :hints_used: 1
+  :date: 2019-09-01 18:13:52.407242765 +03:00
+- :name: Asdfasdf
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 6
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 18:15:38.830572742 +03:00
+- :name: Asdfasdf
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 4
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 18:17:25.004128545 +03:00
+- :name: Asdfasdf
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 7
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 18:17:48.961177509 +03:00
+- :name: Asdfasdf
+  :difficulty: medium
+  :attempts_total: 10
+  :attempts_used: 6
+  :hints_total: 1
+  :hints_used: 0
+  :date: 2019-09-01 19:44:57.135379889 +03:00
+- :name: Bogdan
+  :difficulty: medium
+  :attempts_total: 10
+  :attempts_used: 6
+  :hints_total: 1
+  :hints_used: 0
+  :date: 2019-09-01 19:48:00.482805219 +03:00
+- :name: Paratskiy
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 7
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 19:49:03.560333308 +03:00
+- :name: Paratskiy
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 7
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 19:49:46.992320318 +03:00
+- :name: Paratskiy
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 7
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 19:49:47.765272363 +03:00
+- :name: Paratskiy
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 7
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 19:49:48.257628210 +03:00
+- :name: Paratskiy
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 7
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 19:49:48.550070814 +03:00
+- :name: Paratskiy
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 7
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 19:49:48.796048456 +03:00
+- :name: Paratskiy
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 7
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 19:49:49.034282967 +03:00
+- :name: Paratskiy
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 7
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 19:49:49.265026019 +03:00
+- :name: Paratskiy
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 7
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 19:49:49.568571893 +03:00
+- :name: Paratskiy
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 7
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 19:49:49.838423306 +03:00
+- :name: Paratskiy
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 7
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 19:49:50.049941378 +03:00
+- :name: Paratskiy
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 7
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 19:50:21.768253518 +03:00
+- :name: Paratskiy
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 7
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 19:50:22.500470142 +03:00
+- :name: Paratskiy
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 7
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 19:50:22.962158180 +03:00
+- :name: Paratskiy
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 7
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 19:50:23.298474199 +03:00
+- :name: Paratskiy
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 7
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-01 19:52:23.854483817 +03:00
+- :name: Asdf
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 8
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-02 18:27:55.639754026 +03:00
+- :name: Paratskiy
+  :difficulty: hell
+  :attempts_total: 5
+  :attempts_used: 5
+  :hints_total: 1
+  :hints_used: 0
+  :date: 2019-09-02 18:48:32.714878671 +03:00
+- :name: Asdfasdf
+  :difficulty: easy
+  :attempts_total: 15
+  :attempts_used: 13
+  :hints_total: 2
+  :hints_used: 0
+  :date: 2019-09-02 18:49:54.810079012 +03:00

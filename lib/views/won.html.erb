@@ -24,40 +24,36 @@
               <button type="button" class="btn btn-primary" disabled>
                 Level:
                 <span class="badge badge-light">
-                  Middle
+                  <%= level%>
                 </span>
               </button>
               <button type="button" class="btn btn-primary" disabled>
                 Attempts Left:
                 <span class="badge badge-light">
-                  0/8
+                  <%= full_attempts_info%>
                 </span>
               </button>
               <button type="button" class="btn btn-primary" disabled>
                 Hints Left:
                 <span class="badge badge-light">
-                  1/3
+                  <%= full_hints_info%>
                 </span>
               </button>
             </div>
           </div>
           <hr class="mb-4">
           <div class="row">
-            <div class="text-center">
+            <div class="text-center margin-auto">
               <div class="text-center">
                 <h3 class="text-white">
-                  Oops, NAME! You lose the game!
+                  Congratulations, <%= player_name%>! You won the game!
                 </h3>
-                <h4 class="text-white">
-                  The code was
-                  <strong>1553</strong>
-                </h4>
               </div>
-              <img src="assets/images/lost.gif" class="img-fluid" alt="You lose the game!">
+              <img src="assets/images/won.gif" class="img-fluid" alt="You won the game!">
             </div>
           </div>
           <hr class="mb-4">
-          <a class="btn btn-primary btn-lg" href="/game" role="button">
+          <a class="btn btn-primary btn-lg" href="/new_game" role="button">
             Play again!
           </a>
           <a class="btn btn-success btn-lg float-right" href="/statistic" role="button">
