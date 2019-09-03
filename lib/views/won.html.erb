@@ -24,19 +24,19 @@
               <button type="button" class="btn btn-primary" disabled>
                 Level:
                 <span class="badge badge-light">
-                  <%= level%>
+                  <%= DataHelper.level%>
                 </span>
               </button>
               <button type="button" class="btn btn-primary" disabled>
                 Attempts Left:
                 <span class="badge badge-light">
-                  <%= full_attempts_info%>
+                  <%= Decorator.full_attempts_info%>
                 </span>
               </button>
               <button type="button" class="btn btn-primary" disabled>
                 Hints Left:
                 <span class="badge badge-light">
-                  <%= full_hints_info%>
+                  <%= Decorator.full_hints_info%>
                 </span>
               </button>
             </div>
@@ -46,7 +46,7 @@
             <div class="text-center margin-auto">
               <div class="text-center">
                 <h3 class="text-white">
-                  Congratulations, <%= player_name%>! You won the game!
+                  Congratulations, <%= DataHelper.player_name%>! You won the game!
                 </h3>
               </div>
               <img src="assets/images/won.gif" class="img-fluid" alt="You won the game!">
