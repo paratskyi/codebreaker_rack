@@ -19,7 +19,7 @@
               </div>
             </div>
             <p class="lead text-white-70">
-              Hello, <%= DataHelper.player_name%>
+              Hello, <%= Getter.player_name%>
               Try to guess 4-digit number, that consists of numbers in a range from 1 to 6.
             </p>
             <hr class="mb-4">
@@ -28,21 +28,21 @@
                 <button type="button" class="btn btn-primary" disabled>
                   Level: 
                   <span class="badge badge-light">
-                    <%= DataHelper.level%>
+                    <%= Getter.level%>
                   </span>
                 </button>
               </div>
               <div class="col text-center button">
                 <button type="button" class="btn btn-primary" disabled>
                   Attempts:
-                  <span class="badge badge-light"><%= DataHelper.attempts%></span>
+                  <span class="badge badge-light"><%= Getter.attempts%></span>
                 </button>
               </div>
 
               <div class="col button">
                 <button type="button" class="btn btn-primary float-right">
                   Hints:
-                  <span class="badge badge-light"><%= DataHelper.hints%></span>
+                  <span class="badge badge-light"><%= Getter.hints%></span>
                 </button>
               </div>
             </div>

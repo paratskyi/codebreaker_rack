@@ -51,11 +51,11 @@ class CodebreakerWeb
   end
 
   def difficulty
-    DataHelper.difficulty
+    Getter.difficulty
   end
 
   def session_start
-    update_session('game', CodebreakerParatskiy.run_game(DataHelper.player_name, difficulty)) unless session_present?(:name)
+    update_session('game', CodebreakerParatskiy.run_game(Getter.player_name, difficulty)) unless session_present?(:name)
     update_session('take_hints', [])
     redirect('/game')
   end
@@ -98,7 +98,7 @@ class CodebreakerWeb
   end
 
   def take_hint
-    DataHelper.taken_hints.push(DataHelper.hint) unless current_game.hints.zero?
+    Getter.taken_hints.push(Getter.hint) unless current_game.hints.zero?
     redirect('/game')
   end
 

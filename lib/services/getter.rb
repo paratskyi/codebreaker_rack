@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module DataHelper
+module Getter
   def self.session
     CurrentSession.session
   end
@@ -10,23 +10,27 @@ module DataHelper
   end
 
   def self.total_attempts
-    DIFFICULTIES[session[:game].difficulty_name.to_sym][:attempts]
+    DIFFICULTIES[difficulty_name.to_sym][:attempts]
   end
 
   def self.used_attempts
-    DIFFICULTIES[session[:game].difficulty_name.to_sym][:attempts] - attempts
+    DIFFICULTIES[difficulty_name.to_sym][:attempts] - attempts
   end
 
   def self.total_hint
-    DIFFICULTIES[session[:game].difficulty_name.to_sym][:hints]
+    DIFFICULTIES[difficulty_name.to_sym][:hints]
   end
 
   def self.used_hints
-    DIFFICULTIES[session[:game].difficulty_name.to_sym][:hints] - hints
+    DIFFICULTIES[difficulty_name.to_sym][:hints] - hints
   end
 
   def self.difficulty
     DIFFICULTIES[level.downcase.to_sym]
+  end
+
+  def self.difficulty_name
+    session[:game].difficulty_name
   end
 
   def self.hints

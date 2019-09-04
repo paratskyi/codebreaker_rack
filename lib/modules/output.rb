@@ -17,7 +17,7 @@ module Output
   end
 
   def self.show_hints
-    hint_spans = DataHelper.taken_hints.map do |hint|
+    hint_spans = Getter.taken_hints.map do |hint|
       Generator.hint_span(hint)
     end
     hint_spans.join
