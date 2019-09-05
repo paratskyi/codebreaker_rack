@@ -49,14 +49,14 @@ class CodebreakerWeb
     redirect('/session_start')
   end
 
-  def difficulty
-    Getter.difficulty
-  end
-
   def session_start
-    update_session('game', CodebreakerParatskiy.run_game(Getter.player_name, difficulty)) unless session_present?(:name)
+    update_session('game', new_codebreaker_game) unless session_present?(:name)
     update_session('take_hints', [])
     redirect('/game')
+  end
+
+  def new_codebreaker_game
+    CodebreakerParatskiy.run_game(Getter.player_name, Getter.difficulty)
   end
 
   def game
@@ -90,6 +90,7 @@ class CodebreakerWeb
   end
 
   def submit_answer
+    # binding.pry
     session[:result] = current_game.result(@request['number'])
     session[:lost?] = current_game.lost?
     session[:won?] = current_game.won?(result)
@@ -101,6 +102,8 @@ class CodebreakerWeb
     redirect('/game')
   end
 
+  private
+  
   def won?
     session[:won?]
   end
@@ -120,8 +123,6 @@ class CodebreakerWeb
   def session
     @request.session
   end
-
-  private
 
   def session_present?(key)
     @request.session.key?(key)

@@ -17,9 +17,9 @@ ROUTS = {
   '/new_game' => :new_game,
   '/session_start' => :session_start,
   '/statistic' => :statistic,
+  '/rules' => :rules,
   '/won' => :won,
   '/lost' => :lost,
-  '/rules' => :rules,
   '/take_hint' => :take_hint,
   '/submit_answer' => :submit_answer
 }.freeze

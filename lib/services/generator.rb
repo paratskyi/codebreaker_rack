@@ -1,6 +1,6 @@
 module Generator
   def self.denger_mark
-    '<button type="buttosessionn" class="btn btn-danger marks" disabled>x</button>'
+    '<button type="button" class="btn btn-danger marks" disabled>x</button>'
   end
 
   def self.primary_mark
