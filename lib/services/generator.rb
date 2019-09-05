@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 module Generator
   def self.denger_mark
     '<button type="buttosessionn" class="btn btn-danger marks" disabled>x</button>'

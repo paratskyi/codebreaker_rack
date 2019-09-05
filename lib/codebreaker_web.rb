@@ -1,6 +1,5 @@
-# frozen_string_literal: true
-
 require_relative 'dependencies'
+
 class CodebreakerWeb
   def self.call(env)
     new(env).response.finish

@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class CurrentSession
   def initialize(session)
     @@session = session

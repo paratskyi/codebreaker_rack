@@ -1,6 +1,4 @@
-# frozen_string_literal: true
-
-DB = 'stats.yml'
+DB = 'stats.yml'.freeze
 
 DIFFICULTIES = {
   easy: { attempts: 15, hints: 2 },
@@ -11,7 +9,7 @@ DIFFICULTIES = {
 DEFAULT_GUESS_MARKS = '<button type="button" class="btn btn-success marks" disabled>+</button>
 <button type="button" class="btn btn-primary marks" disabled>-</button>
 <button type="button" class="btn btn-danger marks" disabled>x</button>
-<button type="button" class="btn btn-danger marks" disabled>x</button>'
+<button type="button" class="btn btn-danger marks" disabled>x</button>'.freeze
 
 ROUTS = {
   '/' => :index,

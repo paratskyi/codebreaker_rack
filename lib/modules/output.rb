@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 module Output
   def self.show_page(template)
     Rack::Response.new(render(template))

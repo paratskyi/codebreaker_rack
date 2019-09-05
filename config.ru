@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require './lib/codebreaker_web'
 
 use Rack::Reloader, 0

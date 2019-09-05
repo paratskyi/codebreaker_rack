@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 module Decorator
   def self.full_attempts_info
     "#{Getter.used_attempts}/#{Getter.total_attempts}"
