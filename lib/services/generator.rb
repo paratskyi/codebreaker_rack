@@ -1,5 +1,5 @@
 module Generator
-  def self.denger_mark
+  def self.danger_mark
     '<button type="button" class="btn btn-danger marks" disabled>x</button>'
   end
 
@@ -34,7 +34,7 @@ module Generator
       when '-' then guess_marks += primary_mark
       end
     end
-    (4 - Getter.result.length).times { guess_marks += denger_mark }
+    (4 - Getter.result.length).times { guess_marks += danger_mark }
     guess_marks
   end
 
