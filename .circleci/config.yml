@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/circle_ci_example
+  
     docker:
       - image: ruby:2.6.3
         
