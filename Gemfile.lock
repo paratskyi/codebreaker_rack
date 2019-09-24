@@ -8,7 +8,7 @@ GEM
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
       thread_safe (~> 0.3, >= 0.3.1)
-    codebreaker_paratskiy (0.2.0)
+    codebreaker_paratskiy (0.2.4)
     codeclimate-engine-rb (0.4.1)
       virtus (~> 1.0)
     coderay (1.1.2)
@@ -117,7 +117,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  codebreaker_paratskiy (~> 0.2.0)
+  codebreaker_paratskiy (~> 0.2.4)
   command_line_reporter (~> 4.0)
   fasterer (~> 0.6.0)
   pry (~> 0.12.2)

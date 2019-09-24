@@ -7,6 +7,8 @@ SimpleCov.start
 
 require_relative '../lib/dependencies.rb'
 
+ROUTS_TEST = %w[game statistic rules won lost].freeze
+
 RSpec.configure do |config|
   config.include Rack::Test::Methods
 

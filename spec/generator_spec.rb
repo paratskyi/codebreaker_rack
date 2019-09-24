@@ -1,7 +1,5 @@
 require 'spec_helper'
 
-ROUTS_TEST = %w[game statistic rules won lost].freeze
-
 RSpec.describe Generator do
   describe '#generate' do
     context 'when generate elements' do

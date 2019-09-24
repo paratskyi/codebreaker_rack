@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-gem 'codebreaker_paratskiy', '~> 0.2.0'
+gem 'codebreaker_paratskiy', '~> 0.2.4'
 gem 'command_line_reporter', '~> 4.0'
 gem 'fasterer', '~> 0.6.0'
 gem 'pry', '~> 0.12.2'

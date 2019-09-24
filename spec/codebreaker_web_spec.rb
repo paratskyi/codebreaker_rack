@@ -1,10 +1,12 @@
 require 'spec_helper'
 require './lib/codebreaker_web'
 
-ROUTS_TEST = %w[game statistic rules won lost].freeze
-
 RSpec.describe CodebreakerWeb do
-  let(:game) { CodebreakerParatskiy.run_game('test', DIFFICULTIES[:easy]) }
+  before do
+    CodebreakerParatskiy.run_game('test', 'easy')
+  end
+
+  let(:game) { CurrentGame.game }
 
   def app
     Rack::Builder.parse_file('config.ru').first
