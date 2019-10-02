@@ -30,10 +30,11 @@ module Generator
     def guess_marks
       guess_marks = ''
       Getter.result.each_char do |guess_mark|
-        case guess_mark
-        when '+' then guess_marks += success_mark
-        when '-' then guess_marks += primary_mark
-        end
+        guess_marks += if guess_mark == SUCCESS_MARK
+                         success_mark
+                       else
+                         primary_mark
+                       end
       end
       (4 - Getter.result.length).times { guess_marks += danger_mark }
       guess_marks

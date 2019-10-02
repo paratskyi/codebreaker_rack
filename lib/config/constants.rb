@@ -15,3 +15,5 @@ ROUTS = {
   '/take_hint' => :take_hint,
   '/submit_answer' => :submit_answer
 }.freeze
+
+SUCCESS_MARK = '+'
